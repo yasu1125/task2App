@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             result = number1 * number2
         case 3:
             guard number2 != 0 else {
-                textField2.text = "0以外を入力してください"
+                resultLabel.text = "0以外を入力してください"
                 return
             }
 
